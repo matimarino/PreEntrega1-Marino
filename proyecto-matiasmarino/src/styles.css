@@ -1,0 +1,32 @@
+body{
+background-color: rgb(185, 128, 20);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-brand,
+.navbar-nav a {
+    color: #272727;
+    &:hover {
+    color: #000000;
+    }
+}
+
+
+.cart-widget {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    i {
+    font-size: 24px;
+    margin-right: 5px;
+    }
+
+    .badge {
+    background-color: #e74c3c;
+    }
+}
