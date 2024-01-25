@@ -1,14 +1,17 @@
 
 import React from 'react';
-import '../styles.css'
+import { BiCart } from 'react-icons/bi';
+import '../styles.css';
+
 
 const CartWidget = () => {
-return (
+  return (
     <div className="cart-widget">
-    <i className="bi bi-cart"></i>
-      <span className="badge bg-primary">3</span>{/* Hardcodea el número de elementos */}
+      <BiCart />
+      <span className="badge bg-primary">3</span>
     </div>
-);
+  );
 };
 
 export default CartWidget;
+

@@ -1,4 +1,3 @@
-// App.js
 
 import React from 'react';
 import NavBar from './Componentes/NavBar';
@@ -9,7 +8,6 @@ function App() {
     <div>
       <NavBar />
       <ItemListContainer greeting="¡Bienvenido a nuestra tienda en línea!" />
-      {/* Aquí puedes agregar más componentes según sea necesario */}
     </div>
   );
 }
